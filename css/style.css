@@ -15,6 +15,9 @@ header{
 
 }
 
+html { overflow-y: scroll; }
+body { position: absolute; }
+
 ul.first{
     list-style-type: none;
     text-align: center;
