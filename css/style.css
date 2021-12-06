@@ -16,7 +16,6 @@ header{
 }
 
 html { overflow-y: scroll; }
-body { position: absolute; }
 
 ul.first{
     list-style-type: none;
@@ -94,8 +93,8 @@ p2 {
     color: purple;
     font-size: 20px;
     position: absolute;
-    top: 30%;
-    left: 30%;
+    top: 15%;
+    left: 5%;
 }
 .active {
   float:none;
