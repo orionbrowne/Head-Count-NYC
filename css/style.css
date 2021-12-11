@@ -16,6 +16,10 @@ header{
 
 html { overflow-y: scroll; }
 
+content img {
+  position: absolute;
+  top: 50px;
+}
 ul.first{
     list-style-type: none;
     text-align: center;
@@ -54,6 +58,7 @@ ul li :hover::after{
 }
 
 .logo img{
+    color: orange;
     float:left;
     width: 120px;
     height: auto;
@@ -62,7 +67,7 @@ ul li :hover::after{
     z-index:0;
 }
 h1 {
-    color:rgb(168, 172, 190);
+    color: orange;
     font-size: 40px;
     position: absolute;
     top: 30%;
@@ -95,6 +100,15 @@ p2 {
     top: 15%;
     left: 5%;
 }
+p3 {
+  color: white;
+  font-size: : 25px;
+  position: absolute;
+  top: 35%;
+  left: 10%;
+  margin-right: 800px;
+}
+
 .active {
   float:none;
   position:fixed;
